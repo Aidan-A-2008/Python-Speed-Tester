@@ -17,7 +17,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd speed-test
+  cd ./speed-test
 ```
 
 Install dependencies
