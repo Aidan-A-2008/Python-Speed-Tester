@@ -22,14 +22,14 @@ Go to the project directory
 
 Install dependencies
 
-```python
+```bash
   pip install speedtest
   pip install rich
 ```
 
 Start the speed test
 
-```python
+```bash
   py speed-test.py
 ```
 
