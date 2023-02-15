@@ -10,7 +10,7 @@ A Python code written to test your internet speed. More of a proof of concept as
 
 Clone the project
 
-```bash
+```git
   git clone https://github.com/Aidan-A-2008/Python-Speed-Tester.git
 ```
 
@@ -22,14 +22,14 @@ Go to the project directory
 
 Install dependencies
 
-```bash
+```python
   pip install speedtest
   pip install rich
 ```
 
 Start the speed test
 
-```bash
+```python
   py speed-test.py
 ```
 
