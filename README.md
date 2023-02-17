@@ -24,7 +24,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  pip install speedtest
+  pip install speedtest-cli
   pip install rich
 ```
 
