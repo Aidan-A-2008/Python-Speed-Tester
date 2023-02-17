@@ -17,7 +17,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd ./speed-test
+  cd ./speed-test-beta
 ```
 
 Install dependencies
@@ -30,7 +30,7 @@ Install dependencies
 Start the speed test
 
 ```bash
-  py speed-test.py
+  py speed-test-beta.py
 ```
 
 
