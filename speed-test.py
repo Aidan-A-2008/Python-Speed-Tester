@@ -45,14 +45,18 @@ def openNewWindow():
 
     # sets the title of the
     # Toplevel widget
-    newWindow.title("Running Speed Test")
+    newWindow.title("Speed Test Results")
 
     # sets the geometry of toplevel
     newWindow.geometry("250x200")
 
     # A Label widget to show in toplevel
     Label(newWindow,
-          text ="Running | Python Speed Test Beta 1.1.0").pack()
+          text ="Results | Python Speed Test Beta 1.1.0").pack()
+    Label(newWindow,
+          text =f"Download: {download}").pack()
+    Label(newWindow,
+          text =f"Upload: {upload}").pack()
 
 
 label = Label(master,
@@ -63,7 +67,7 @@ label.pack(pady = 10)
 # a button widget which will open a
 # new window on button click
 btn = Button(master,
-             text ="Run Speed Test",
+             text ="Speed Test Results",
              command = openNewWindow)
 btn.pack(pady = 10)
 
