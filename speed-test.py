@@ -6,7 +6,7 @@ from tkinter import *
 from tkinter.ttk import *
 
 print("    ")
-print("[yellow]Python Speed Tester Beta 1.1.7")
+print("[yellow]Python Speed Tester Beta 1.1.8")
 print("    ")
 print("    ")
 print("[purple]Beta Update: Added App/GUI | Test will show in both console/shell/terminal and via output/app/GUI")
@@ -52,7 +52,7 @@ def openNewWindow():
 
     # A Label widget to show in toplevel
     Label(newWindow,
-          text ="Results | Python Speed Test Beta 1.1.7").pack()
+          text ="Results | Python Speed Test Beta 1.1.8").pack()
     Label(newWindow,
           text =f"Download: {download}").pack()
     Label(newWindow,
@@ -60,7 +60,7 @@ def openNewWindow():
 
 
 label = Label(master,
-              text ="Python Speed Test V: Beta 1.1.7")
+              text ="Python Speed Test V: Beta 1.1.8")
 
 label.pack(pady = 10)
 
