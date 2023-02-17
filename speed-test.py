@@ -1,5 +1,5 @@
 # All th things needed to run this project. 
-## Don't remove. | Removing this will not allow the code to run and you will recive a long error regarding you removing this. 
+## Don't remove. | Removing this will not allow the code to run and you will recive a long error regarding you removing this.
 import speedtest
 from rich import print
 from tkinter import *
@@ -33,38 +33,38 @@ master = Tk()
 # sets the geometry of main
 # root window
 master.geometry("200x200")
-
+master.title("Python Speed Tester")
 
 # function to open a new window
 # on a button click
 def openNewWindow():
-	
-	# Toplevel object which will
-	# be treated as a new window
-	newWindow = Toplevel(master)
 
-	# sets the title of the
-	# Toplevel widget
-	newWindow.title("Python Speed Test")
+    # Toplevel object which will
+    # be treated as a new window
+    newWindow = Toplevel(master)
 
-	# sets the geometry of toplevel
-	newWindow.geometry("150x500")
+    # sets the title of the
+    # Toplevel widget
+    newWindow.title("Running Speed Test")
 
-	# A Label widget to show in toplevel
-	Label(newWindow,
-		text ="Python Speed Test Beta 1.1.0").pack()
+    # sets the geometry of toplevel
+    newWindow.geometry("250x200")
+
+    # A Label widget to show in toplevel
+    Label(newWindow,
+          text ="Running | Python Speed Test Beta 1.1.0").pack()
 
 
 label = Label(master,
-			text ="Python Speed Test V: Beta 1.1.0")
+              text ="Python Speed Test V: Beta 1.1.0")
 
 label.pack(pady = 10)
 
 # a button widget which will open a
 # new window on button click
 btn = Button(master,
-			text ="Run Speed Test",
-			command = "python3 speed-test.py")
+             text ="Run Speed Test",
+             command = openNewWindow)
 btn.pack(pady = 10)
 
 # mainloop, runs infinitely
