@@ -6,7 +6,7 @@ from rich import print
 print("    ")
 print("[bold red]-------------------------------------------------------------")
 print("    ")
-print("[bold red]Keep in Mind, Internet speed chnage so much that these results may not be as accurate as a speed test site.")
+print("[bold red]Keep in Mind, Internet speed change so much that these results may not be as accurate as a speed test site.")
 print("    ")
 print("[bold red]-------------------------------------------------------------")
 print("    ")
