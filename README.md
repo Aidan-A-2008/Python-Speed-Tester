@@ -1,4 +1,4 @@
-
+#DUE TO THIS PROJECT NOT BEING UPDATED IN 2 YEARS, THIS PROJECT/REPO IS NOW ARCHIVED AND WILL NO LONGER BE WORKED ON!
 # Python Speed Test
 
 A Python code written to test your internet speed. More of a proof of concept as wifi speeds change so frequently that this will not be the most reliable internet speed tester.
